@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://passwordgenerator.one
+
+# Sitemaps
+Sitemap: https://passwordgenerator.one/sitemap.xml
