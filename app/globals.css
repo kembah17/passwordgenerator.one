@@ -25,9 +25,12 @@
   --color-card-hover: #F5F6FA;
   --color-input: #FFFFFF;
   --color-hero: #E8F5ED;
-  --color-footer: #1E293B;
-  --color-footer-text: #CBD5E1;
-  --color-footer-muted: #64748B;
+  --color-footer-bg: #111827;
+  --color-footer-text: #E2E8F0;
+  --color-footer-muted: #94A3B8;
+  --color-footer-border: #1F2937;
+  --color-footer-link: #6EE7B7;
+  --color-footer-link-hover: #059669;
 
   /* Text */
   --color-text: #0F172A;
@@ -87,9 +90,12 @@
   --color-card-hover: #1E293B;
   --color-input: #1E293B;
   --color-hero: rgba(16, 185, 129, 0.05);
-  --color-footer: #070D1A;
-  --color-footer-text: #94A3B8;
-  --color-footer-muted: #475569;
+  --color-footer-bg: #030712;
+  --color-footer-text: #E2E8F0;
+  --color-footer-muted: #64748B;
+  --color-footer-border: #111827;
+  --color-footer-link: #34D399;
+  --color-footer-link-hover: #6EE7B7;
 
   --color-text: #F1F5F9;
   --color-text-primary: #F1F5F9;
