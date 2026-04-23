@@ -17,7 +17,7 @@ export default function Header() {
     <header
       style={{
         backgroundColor: "var(--color-surface)",
-        borderBottom: "1px solid var(--color-border)",
+        borderBottom: "2px solid var(--color-border)",
         boxShadow: "var(--shadow-sm)",
         position: "sticky",
         top: 0,
@@ -44,14 +44,15 @@ export default function Header() {
             textDecoration: "none",
             fontWeight: 700,
             fontSize: "1.25rem",
-            color: "var(--color-primary)",
+            color: "var(--color-heading)",
           }}
         >
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" stroke="#059669" strokeWidth="2" fill="rgba(5, 150, 105, 0.1)" />
+            <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#D97706" strokeWidth="2.5" />
+            <circle cx="12" cy="16.5" r="1.5" fill="#059669" />
           </svg>
-          PasswordGenerator
+          <span>Password<span style={{ color: "var(--color-primary)" }}>Generator</span></span>
         </Link>
 
         <nav
@@ -70,10 +71,10 @@ export default function Header() {
                 padding: "0.5rem 0.75rem",
                 borderRadius: "0.5rem",
                 fontSize: "0.875rem",
-                fontWeight: 500,
-                color: "var(--color-text-secondary)",
+                fontWeight: 600,
+                color: "var(--color-text)",
                 textDecoration: "none",
-                transition: "color 0.2s ease",
+                transition: "color 0.2s ease, background-color 0.2s ease",
               }}
             >
               {link.label}
@@ -136,7 +137,7 @@ export default function Header() {
                 padding: "0.75rem",
                 borderRadius: "0.5rem",
                 fontSize: "0.9375rem",
-                fontWeight: 500,
+                fontWeight: 600,
                 color: "var(--color-text-secondary)",
                 textDecoration: "none",
               }}

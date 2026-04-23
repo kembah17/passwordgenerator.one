@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "var(--color-surface)",
-        borderTop: "1px solid var(--color-border)",
+        backgroundColor: "var(--color-footer)",
+        borderTop: "2px solid var(--color-primary)",
         marginTop: "3rem",
       }}
     >
@@ -22,30 +22,30 @@ export default function Footer() {
         }}
       >
         <div>
-          <h3 style={{ fontWeight: 700, fontSize: "1rem", color: "var(--color-text)", marginBottom: "0.75rem" }}>
+          <h3 style={{ fontWeight: 700, fontSize: "1rem", color: "#FFFFFF", marginBottom: "0.75rem" }}>
             PasswordGenerator.one
           </h3>
-          <p style={{ fontSize: "0.8125rem", color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+          <p style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", lineHeight: 1.6 }}>
             Free, secure password tools that run entirely in your browser. No data is ever sent to any server.
           </p>
         </div>
         <div>
-          <h3 style={{ fontWeight: 700, fontSize: "1rem", color: "var(--color-text)", marginBottom: "0.75rem" }}>
+          <h3 style={{ fontWeight: 700, fontSize: "1rem", color: "#FFFFFF", marginBottom: "0.75rem" }}>
             Tools
           </h3>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            <Link href="/password-generator" style={{ fontSize: "0.8125rem", color: "var(--color-text-muted)", textDecoration: "none" }}>Password Generator</Link>
-            <Link href="/passphrase-generator" style={{ fontSize: "0.8125rem", color: "var(--color-text-muted)", textDecoration: "none" }}>Passphrase Generator</Link>
-            <Link href="/password-strength-checker" style={{ fontSize: "0.8125rem", color: "var(--color-text-muted)", textDecoration: "none" }}>Password Strength Checker</Link>
+            <Link href="/password-generator" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>Password Generator</Link>
+            <Link href="/passphrase-generator" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>Passphrase Generator</Link>
+            <Link href="/password-strength-checker" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>Password Strength Checker</Link>
           </div>
         </div>
         <div>
-          <h3 style={{ fontWeight: 700, fontSize: "1rem", color: "var(--color-text)", marginBottom: "0.75rem" }}>
+          <h3 style={{ fontWeight: 700, fontSize: "1rem", color: "#FFFFFF", marginBottom: "0.75rem" }}>
             Company
           </h3>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            <Link href="/about" style={{ fontSize: "0.8125rem", color: "var(--color-text-muted)", textDecoration: "none" }}>About</Link>
-            <Link href="/privacy" style={{ fontSize: "0.8125rem", color: "var(--color-text-muted)", textDecoration: "none" }}>Privacy Policy</Link>
+            <Link href="/about" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>About</Link>
+            <Link href="/privacy" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>Privacy Policy</Link>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ export default function Footer() {
           maxWidth: "1200px",
           margin: "0 auto",
           padding: "1.5rem 1rem",
-          borderTop: "1px solid var(--color-border)",
+          borderTop: "1px solid var(--color-footer-muted)",
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-between",
@@ -62,10 +62,10 @@ export default function Footer() {
           gap: "0.5rem",
         }}
       >
-        <p style={{ fontSize: "0.8125rem", color: "var(--color-text-muted)" }}>
+        <p style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)" }}>
           &copy; {new Date().getFullYear()} PasswordGenerator.one. All rights reserved.
         </p>
-        <p style={{ fontSize: "0.75rem", color: "var(--color-text-muted)" }}>
+        <p style={{ fontSize: "0.75rem", color: "var(--color-footer-text)" }}>
           🔒 100% client-side &bull; No data collection
         </p>
       </div>
