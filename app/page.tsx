@@ -33,7 +33,7 @@ const homeFaq = [
   {
     question: "Can I use these tools on my phone?",
     answer:
-      "Absolutely. All tools are fully responsive and work on any device with a modern browser \u2014 no app download needed.",
+      "Absolutely. All tools are fully responsive and work on any device with a modern browser — no app download needed.",
   },
 ];
 
@@ -131,17 +131,17 @@ export default function HomePage() {
         >
           {[
             {
-              icon: "\uD83D\uDD12",
+              icon: "🔒",
               title: "100% Private",
               desc: "All tools run in your browser using the Web Crypto API. No data is ever sent to any server.",
             },
             {
-              icon: "\u26A1",
+              icon: "⚡",
               title: "Instant Results",
               desc: "Generate passwords and analyze strength in milliseconds. No loading, no waiting.",
             },
             {
-              icon: "\uD83C\uDF10",
+              icon: "🌐",
               title: "Works Everywhere",
               desc: "Fully responsive tools that work on desktop, tablet, and mobile. No app needed.",
             },

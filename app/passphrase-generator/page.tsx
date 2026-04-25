@@ -22,7 +22,7 @@ const faqItems = [
   {
     question: "Are passphrases more secure than passwords?",
     answer:
-      "A well-generated passphrase of 5+ random words provides comparable or better security than a 16-character random password. The key is that the words must be truly random \u2014 not a phrase you made up. Our generator uses cryptographic randomness to select words.",
+      "A well-generated passphrase of 5+ random words provides comparable or better security than a 16-character random password. The key is that the words must be truly random — not a phrase you made up. Our generator uses cryptographic randomness to select words.",
   },
   {
     question: "How many words should my passphrase have?",
@@ -113,7 +113,7 @@ export default function PassphraseGeneratorPage() {
             <p>
               The concept was popularized by the famous XKCD comic: four random
               common words strung together create a password that is both highly
-              secure and easy to remember. The math is simple \u2014 with a word
+              secure and easy to remember. The math is simple — with a word
               list of 7,776 words, each word adds about 12.9 bits of entropy.
               Five words give you ~64 bits, which would take centuries to crack.
             </p>
@@ -126,7 +126,7 @@ export default function PassphraseGeneratorPage() {
             </p>
             <h3>Tips for Using Passphrases</h3>
             <ul>
-              <li>Never use a phrase from a book, song, or movie \u2014 use random words</li>
+              <li>Never use a phrase from a book, song, or movie — use random words</li>
               <li>Add a number or special character for sites that require them</li>
               <li>Use at least 5 words for important accounts</li>
               <li>Store your passphrases in a password manager for convenience</li>

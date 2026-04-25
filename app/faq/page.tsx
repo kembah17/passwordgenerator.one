@@ -34,7 +34,7 @@ const faqItems = [
   {
     question: "Is a passphrase more secure than a password?",
     answer:
-      "A well-generated passphrase of 5+ random words provides comparable or better security than a 16-character random password. The key advantage is memorability \u2014 you can remember 'Marble-Sunset-Bicycle-Ocean-Thunder' much more easily than 'X7#mK9$pL2vN4@qR'. Both are secure when generated randomly.",
+      "A well-generated passphrase of 5+ random words provides comparable or better security than a 16-character random password. The key advantage is memorability — you can remember 'Marble-Sunset-Bicycle-Ocean-Thunder' much more easily than 'X7#mK9$pL2vN4@qR'. Both are secure when generated randomly.",
   },
   {
     question: "How is crack time calculated?",
@@ -64,7 +64,7 @@ const faqItems = [
   {
     question: "Can I use these tools on my phone?",
     answer:
-      "Yes. All tools are fully responsive and work on any device with a modern browser \u2014 smartphones, tablets, laptops, and desktops. No app download is needed.",
+      "Yes. All tools are fully responsive and work on any device with a modern browser — smartphones, tablets, laptops, and desktops. No app download is needed.",
   },
   {
     question: "Do you support dark mode?",

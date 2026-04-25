@@ -113,7 +113,7 @@ export default function PasswordStrengthCheckerPage() {
             <h2>How Password Strength Is Measured</h2>
             <p>
               Password strength is fundamentally about <strong>entropy</strong>{" "}
-              \u2014 the mathematical measure of unpredictability. A password
+              — the mathematical measure of unpredictability. A password
               with high entropy has so many possible combinations that even the
               fastest computers would need impractical amounts of time to guess
               it through brute force.
@@ -123,10 +123,10 @@ export default function PasswordStrengthCheckerPage() {
               Our checker goes beyond simple character counting. It detects:
             </p>
             <ul>
-              <li><strong>Common passwords</strong> \u2014 checked against a database of frequently breached passwords</li>
-              <li><strong>Keyboard patterns</strong> \u2014 sequences like &quot;qwerty&quot; or &quot;123456&quot;</li>
-              <li><strong>Repeated characters</strong> \u2014 patterns like &quot;aaa&quot; or &quot;abcabc&quot;</li>
-              <li><strong>Dictionary words</strong> \u2014 including leet-speak substitutions (p@$$w0rd)</li>
+              <li><strong>Common passwords</strong> — checked against a database of frequently breached passwords</li>
+              <li><strong>Keyboard patterns</strong> — sequences like &quot;qwerty&quot; or &quot;123456&quot;</li>
+              <li><strong>Repeated characters</strong> — patterns like &quot;aaa&quot; or &quot;abcabc&quot;</li>
+              <li><strong>Dictionary words</strong> — including leet-speak substitutions (p@$$w0rd)</li>
             </ul>
             <h3>Improving Your Password</h3>
             <p>

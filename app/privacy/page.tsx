@@ -102,9 +102,9 @@ export default function PrivacyPage() {
             <h2>Cookies</h2>
             <p>We use minimal cookies:</p>
             <ul>
-              <li><strong>Theme preference</strong> \u2014 Stores your light/dark mode choice (localStorage)</li>
-              <li><strong>Analytics cookies</strong> \u2014 Anonymous usage statistics</li>
-              <li><strong>Advertising cookies</strong> \u2014 Used by our ad partners</li>
+              <li><strong>Theme preference</strong> — Stores your light/dark mode choice (localStorage)</li>
+              <li><strong>Analytics cookies</strong> — Anonymous usage statistics</li>
+              <li><strong>Advertising cookies</strong> — Used by our ad partners</li>
             </ul>
 
             <h2>Third-Party Services</h2>

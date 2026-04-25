@@ -21,7 +21,7 @@ const faqItems = [
   {
     question: "Should I use special characters in my password?",
     answer:
-      "Yes. Including special characters (!@#$%^&*) increases the character set from ~62 to ~95 characters, significantly boosting entropy. However, length matters more than complexity \u2014 a 20-character lowercase password is stronger than an 8-character password with all character types.",
+      "Yes. Including special characters (!@#$%^&*) increases the character set from ~62 to ~95 characters, significantly boosting entropy. However, length matters more than complexity — a 20-character lowercase password is stronger than an 8-character password with all character types.",
   },
   {
     question: "How often should I change my passwords?",
@@ -31,12 +31,12 @@ const faqItems = [
   {
     question: "Is it safe to write down passwords?",
     answer:
-      "A written password stored securely (locked drawer, wallet) is safer than a weak password you can memorize. However, a password manager is the best solution \u2014 it generates, stores, and auto-fills strong unique passwords for every account.",
+      "A written password stored securely (locked drawer, wallet) is safer than a weak password you can memorize. However, a password manager is the best solution — it generates, stores, and auto-fills strong unique passwords for every account.",
   },
   {
     question: "Can a strong password be hacked?",
     answer:
-      "A truly random password with 80+ bits of entropy is practically impossible to crack through brute force with current technology. However, passwords can be compromised through phishing, data breaches, malware, or social engineering \u2014 which is why 2FA is essential.",
+      "A truly random password with 80+ bits of entropy is practically impossible to crack through brute force with current technology. However, passwords can be compromised through phishing, data breaches, malware, or social engineering — which is why 2FA is essential.",
   },
 ];
 
@@ -196,7 +196,7 @@ export default function HowToCreateStrongPasswordPage() {
             <ul>
               <li><strong>Using personal information:</strong> Names, birthdays, pet names, and addresses are easily guessable</li>
               <li><strong>Keyboard patterns:</strong> &quot;qwerty&quot;, &quot;123456&quot;, &quot;asdfgh&quot; are among the first patterns attackers try</li>
-              <li><strong>Simple substitutions:</strong> &quot;p@$$w0rd&quot; is not secure \u2014 attackers know about leet speak</li>
+              <li><strong>Simple substitutions:</strong> &quot;p@$$w0rd&quot; is not secure — attackers know about leet speak</li>
               <li><strong>Reusing passwords:</strong> If one account is breached, all accounts with the same password are compromised</li>
               <li><strong>Short passwords:</strong> No amount of complexity compensates for insufficient length</li>
               <li><strong>Dictionary words:</strong> Even uncommon words are in attacker dictionaries</li>

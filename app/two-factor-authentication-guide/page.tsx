@@ -16,7 +16,7 @@ const faqItems = [
   {
     question: "What is two-factor authentication (2FA)?",
     answer:
-      "Two-factor authentication adds a second verification step beyond your password. After entering your password, you must provide a second factor \u2014 typically a code from an authenticator app, a text message, or a physical security key. This means even if someone steals your password, they cannot access your account without the second factor.",
+      "Two-factor authentication adds a second verification step beyond your password. After entering your password, you must provide a second factor — typically a code from an authenticator app, a text message, or a physical security key. This means even if someone steals your password, they cannot access your account without the second factor.",
   },
   {
     question: "Which 2FA method is most secure?",
@@ -36,7 +36,7 @@ const faqItems = [
   {
     question: "Which accounts should I enable 2FA on first?",
     answer:
-      "Prioritize in this order: (1) Email accounts \u2014 they are the keys to all other accounts via password reset, (2) Financial accounts \u2014 banking, investment, crypto, (3) Password manager, (4) Cloud storage, (5) Social media, (6) Everything else that supports it.",
+      "Prioritize in this order: (1) Email accounts — they are the keys to all other accounts via password reset, (2) Financial accounts — banking, investment, crypto, (3) Password manager, (4) Cloud storage, (5) Social media, (6) Everything else that supports it.",
   },
 ];
 
@@ -114,17 +114,17 @@ export default function TwoFactorAuthGuidePage() {
             </p>
             <p><strong>Best authenticator apps:</strong></p>
             <ul>
-              <li><strong>Authy</strong> \u2014 Cloud backup, multi-device sync, encrypted recovery</li>
-              <li><strong>Google Authenticator</strong> \u2014 Simple, reliable, now supports cloud sync</li>
-              <li><strong>Microsoft Authenticator</strong> \u2014 Cloud backup, passwordless sign-in for Microsoft accounts</li>
-              <li><strong>Bitwarden Authenticator</strong> \u2014 Built into Bitwarden password manager (Premium)</li>
+              <li><strong>Authy</strong> — Cloud backup, multi-device sync, encrypted recovery</li>
+              <li><strong>Google Authenticator</strong> — Simple, reliable, now supports cloud sync</li>
+              <li><strong>Microsoft Authenticator</strong> — Cloud backup, passwordless sign-in for Microsoft accounts</li>
+              <li><strong>Bitwarden Authenticator</strong> — Built into Bitwarden password manager (Premium)</li>
             </ul>
 
             <h3>Hardware Security Keys</h3>
             <p>
               Physical devices like YubiKey and Google Titan that plug into
               your USB port or connect via NFC. They are the most secure 2FA
-              method and are phishing-resistant \u2014 they verify the website
+              method and are phishing-resistant — they verify the website
               domain before responding.
             </p>
 
@@ -150,7 +150,7 @@ export default function TwoFactorAuthGuidePage() {
             <h3>Step 1: Install an Authenticator App</h3>
             <p>
               Download Authy or Google Authenticator from your app store. We
-              recommend Authy for its cloud backup feature \u2014 if you lose
+              recommend Authy for its cloud backup feature — if you lose
               your phone, you can restore your 2FA codes on a new device.
             </p>
 
@@ -219,7 +219,7 @@ export default function TwoFactorAuthGuidePage() {
               <li>Consider a hardware security key for your most critical accounts</li>
               <li>Set up 2FA on your password manager itself</li>
               <li>Use Authy or another app with cloud backup to prevent lockouts</li>
-              <li>Never share 2FA codes with anyone \u2014 legitimate services will never ask for them</li>
+              <li>Never share 2FA codes with anyone — legitimate services will never ask for them</li>
               <li>Review your 2FA settings periodically and remove old devices</li>
             </ul>
 
@@ -229,7 +229,7 @@ export default function TwoFactorAuthGuidePage() {
             </p>
             <ol>
               <li>
-                <strong>Strong, unique passwords</strong> \u2014 Use our{" "}
+                <strong>Strong, unique passwords</strong> — Use our{" "}
                 <Link href="/password-generator/" style={{ color: "var(--color-primary)" }}>
                   Password Generator
                 </Link>{" "}
@@ -239,13 +239,13 @@ export default function TwoFactorAuthGuidePage() {
                 </Link>
               </li>
               <li>
-                <strong>A password manager</strong> \u2014 Read our{" "}
+                <strong>A password manager</strong> — Read our{" "}
                 <Link href="/password-manager-guide/" style={{ color: "var(--color-primary)" }}>
                   Password Manager Guide
                 </Link>
               </li>
               <li>
-                <strong>Two-factor authentication</strong> \u2014 On every account that supports it
+                <strong>Two-factor authentication</strong> — On every account that supports it
               </li>
             </ol>
             <p>

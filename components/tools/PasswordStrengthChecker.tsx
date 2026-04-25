@@ -167,7 +167,7 @@ export default function PasswordStrengthChecker() {
                     marginTop: "0.0625rem",
                   }}
                 >
-                  {check.passed ? "\u2713" : "\u2717"}
+                  {check.passed ? "✓" : "✗"}
                 </span>
                 <div>
                   <p
@@ -243,7 +243,7 @@ export default function PasswordStrengthChecker() {
                     gap: "0.5rem",
                   }}
                 >
-                  <span style={{ color: "var(--color-primary)", fontWeight: 700 }}>\u2192</span>
+                  <span style={{ color: "var(--color-primary)", fontWeight: 700 }}>→</span>
                   {s}
                 </li>
               ))}

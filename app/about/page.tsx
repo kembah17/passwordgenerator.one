@@ -69,7 +69,7 @@ export default function AboutPage() {
             <p>
               We do not collect, store, transmit, or log any passwords or
               security-related data. Period. You can verify this by using our
-              tools with your internet connection disabled \u2014 they work
+              tools with your internet connection disabled — they work
               perfectly offline after the page loads.
             </p>
 
@@ -79,21 +79,21 @@ export default function AboutPage() {
                 <Link href="/password-generator/" style={{ color: "var(--color-primary)" }}>
                   <strong>Password Generator</strong>
                 </Link>{" "}
-                \u2014 Create strong random passwords with customizable length and
+                — Create strong random passwords with customizable length and
                 character types
               </li>
               <li>
                 <Link href="/passphrase-generator/" style={{ color: "var(--color-primary)" }}>
                   <strong>Passphrase Generator</strong>
                 </Link>{" "}
-                \u2014 Generate memorable multi-word passphrases that are easy to
+                — Generate memorable multi-word passphrases that are easy to
                 remember and hard to crack
               </li>
               <li>
                 <Link href="/password-strength-checker/" style={{ color: "var(--color-primary)" }}>
                   <strong>Password Strength Checker</strong>
                 </Link>{" "}
-                \u2014 Analyze any password with entropy calculation, crack time
+                — Analyze any password with entropy calculation, crack time
                 estimates, and improvement suggestions
               </li>
             </ul>
@@ -103,10 +103,10 @@ export default function AboutPage() {
               Our tools are built with modern web technologies:
             </p>
             <ul>
-              <li><strong>Web Crypto API</strong> \u2014 Browser-native cryptographic random number generation</li>
-              <li><strong>Next.js</strong> \u2014 React framework for fast, SEO-optimized pages</li>
-              <li><strong>Client-side processing</strong> \u2014 All computation happens in your browser</li>
-              <li><strong>No tracking scripts</strong> \u2014 We respect your privacy beyond just passwords</li>
+              <li><strong>Web Crypto API</strong> — Browser-native cryptographic random number generation</li>
+              <li><strong>Next.js</strong> — React framework for fast, SEO-optimized pages</li>
+              <li><strong>Client-side processing</strong> — All computation happens in your browser</li>
+              <li><strong>No tracking scripts</strong> — We respect your privacy beyond just passwords</li>
             </ul>
 
             <h2>Open and Transparent</h2>
