@@ -34,9 +34,9 @@ export default function Footer() {
             Tools
           </h3>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            <Link href="/password-generator" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>Password Generator</Link>
-            <Link href="/passphrase-generator" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>Passphrase Generator</Link>
-            <Link href="/password-strength-checker" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>Password Strength Checker</Link>
+            <Link href="/password-generator" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>🔑 Password Generator</Link>
+            <Link href="/passphrase-generator" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>📝 Passphrase Generator</Link>
+            <Link href="/password-strength-checker" style={{ fontSize: "0.8125rem", color: "var(--color-footer-text)", textDecoration: "none" }}>🛡️ Password Strength Checker</Link>
           </div>
         </div>
         <div>

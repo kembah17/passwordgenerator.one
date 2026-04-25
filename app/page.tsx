@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { TOOLS } from "@/lib/tools-data";
 import AdSlot from "@/components/ui/AdSlot";
 import FAQ from "@/components/ui/FAQ";
 import FaqSchema from "@/components/seo/FaqSchema";
+import HomeToolGrid from "@/components/ui/HomeToolGrid";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -79,7 +79,7 @@ export default function HomePage() {
             }}
           >
             Generate strong passwords, memorable passphrases, and check password
-            strength \u2014 all 100% in your browser. Nothing ever leaves your
+            strength &mdash; all 100% in your browser. Nothing ever leaves your
             device.
           </p>
           <div
@@ -113,61 +113,7 @@ export default function HomePage() {
         >
           Password Security Tools
         </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-            gap: "1.5rem",
-          }}
-        >
-          {TOOLS.map((tool) => (
-            <Link
-              key={tool.slug}
-              href={tool.href}
-              className="card card-interactive"
-              style={{
-                padding: "1.75rem",
-                textDecoration: "none",
-                display: "flex",
-                flexDirection: "column",
-                gap: "0.75rem",
-              }}
-            >
-              <span style={{ fontSize: "2.25rem" }}>{tool.icon}</span>
-              <h3
-                style={{
-                  fontSize: "1.25rem",
-                  fontWeight: 700,
-                  color: "var(--color-heading)",
-                }}
-              >
-                {tool.name}
-              </h3>
-              <p
-                style={{
-                  fontSize: "0.9375rem",
-                  color: "var(--color-text-secondary)",
-                  lineHeight: 1.6,
-                  flex: 1,
-                }}
-              >
-                {tool.description}
-              </p>
-              <span
-                style={{
-                  fontSize: "0.875rem",
-                  fontWeight: 600,
-                  color: "var(--color-primary)",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.25rem",
-                }}
-              >
-                Use Tool \u2192
-              </span>
-            </Link>
-          ))}
-        </div>
+        <HomeToolGrid />
       </section>
 
       <div className="container">
@@ -202,10 +148,13 @@ export default function HomePage() {
           ].map((badge) => (
             <div
               key={badge.title}
-              className="card"
               style={{
+                backgroundColor: "var(--color-bg-card)",
+                border: "2px solid var(--color-border)",
+                borderRadius: "0.75rem",
                 padding: "1.5rem",
                 textAlign: "center",
+                boxShadow: "var(--shadow-sm)",
               }}
             >
               <span style={{ fontSize: "2rem", display: "block", marginBottom: "0.75rem" }}>
@@ -241,8 +190,15 @@ export default function HomePage() {
         style={{ paddingTop: "1rem", paddingBottom: "2rem" }}
       >
         <div
-          className="card"
-          style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto" }}
+          style={{
+            backgroundColor: "var(--color-bg-card)",
+            border: "2px solid var(--color-border)",
+            borderRadius: "0.75rem",
+            padding: "2rem",
+            maxWidth: "800px",
+            margin: "0 auto",
+            boxShadow: "var(--shadow-sm)",
+          }}
         >
           <div className="article-content">
             <h2>Why You Need a Strong Password</h2>
@@ -258,7 +214,7 @@ export default function HomePage() {
               PasswordGenerator.one uses the <strong>Web Crypto API</strong>{" "}
               (<code>crypto.getRandomValues()</code>) built into every modern
               browser to produce cryptographically secure random values. This
-              means your passwords are generated with true randomness \u2014 not
+              means your passwords are generated with true randomness &mdash; not
               pseudo-random algorithms that can be predicted.
             </p>
             <h3>Passwords vs. Passphrases</h3>
