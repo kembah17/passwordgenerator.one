@@ -51,6 +51,7 @@ export const metadata: Metadata = {
       "Password Generator - Free Secure Password & Passphrase Generator",
     description:
       "Free secure password generator, passphrase generator, and password strength checker. 100% client-side — your passwords never leave your device.",
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Password Generator' }],
   },
   twitter: {
     card: "summary_large_image",
