@@ -6,7 +6,7 @@ import HomeToolGrid from "@/components/ui/HomeToolGrid";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://passwordgenerator.one/" },
+  alternates: { canonical: "https://www.passwordgenerator.one/" },
 };
 
 const homeFaq = [

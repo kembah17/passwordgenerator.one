@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy - PasswordGenerator.one",
   description:
     "Our privacy policy explains how PasswordGenerator.one protects your data. All tools run client-side - we never collect, store, or transmit your passwords.",
-  alternates: { canonical: "https://passwordgenerator.one/privacy/" },
+  alternates: { canonical: "https://www.passwordgenerator.one/privacy/" },
 };
 
 export default function PrivacyPage() {

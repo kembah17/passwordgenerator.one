@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "FAQ - Frequently Asked Questions About Password Security",
   description:
     "Answers to common questions about password generation, passphrase security, password strength, and online security best practices.",
-  alternates: { canonical: "https://passwordgenerator.one/faq/" },
+  alternates: { canonical: "https://www.passwordgenerator.one/faq/" },
 };
 
 const faqItems = [
