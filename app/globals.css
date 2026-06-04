@@ -46,7 +46,7 @@
 
   /* Status */
   --color-success: #047857;
-  --color-success-bg: #064E3B;
+  --color-success-bg: #ECFDF5;
   --color-error: #DC2626;
   --color-warning: #B45309;
 
@@ -487,7 +487,7 @@ input[type="range"]::-moz-range-thumb {
 /* === Contrast Accessibility Fixes === */
 /* Fix: Light mode green links need darker green for 4.5:1 ratio */
 :root {
-  --color-link-accessible: #047857;
+  --color-link-accessible: #065F46;
 }
 .dark {
   --color-link-accessible: #6EE7B7;
@@ -575,4 +575,30 @@ a:not([class*="bg-"]):not([style*="backgroundColor"]) {
 }
 a:not([class*="bg-"]):not([style*="backgroundColor"]):hover {
   color: var(--color-link-hover) !important;
+}
+
+
+/* Fix dark mode: hero section with transparent green bg */
+.dark [style*="rgba(16, 185, 129"] h1,
+.dark [style*="rgba(16, 185, 129"] h2 {
+  color: #F1F5F9 !important;
+}
+.dark [style*="rgba(16, 185, 129"] p {
+  color: #CBD5E1 !important;
+}
+.dark [style*="rgba(16, 185, 129"] span {
+  color: #F1F5F9 !important;
+}
+.dark [style*="rgba(16, 185, 129"] a {
+  color: #6EE7B7 !important;
+}
+
+
+
+
+
+/* Override global link color for footer links - must come after global a rule */
+footer a,
+footer a:hover {
+  color: inherit !important;
 }
