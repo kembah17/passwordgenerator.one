@@ -73,11 +73,11 @@
 .dark {
   --color-text-light: #CBD5E1;
   --color-primary-text: #FFFFFF;
-  --color-primary: #10B981;
+  --color-primary: #047857;
   --color-primary-light: #6EE7B7;
-  --color-primary-dark: #059669;
+  --color-primary-dark: #065F46;
   --color-primary-darker: #047857;
-  --color-primary-hover: #059669;
+  --color-primary-hover: #065F46;
   --color-primary-bg: rgba(16, 185, 129, 0.1);
   --color-primary-bg-hover: rgba(16, 185, 129, 0.15);
 
