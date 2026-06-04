@@ -46,7 +46,7 @@
 
   /* Status */
   --color-success: #047857;
-  --color-success-bg: rgba(5, 150, 105, 0.08);
+  --color-success-bg: #064E3B;
   --color-error: #DC2626;
   --color-warning: #B45309;
 
@@ -71,6 +71,8 @@
 }
 
 .dark {
+  --color-text-light: #CBD5E1;
+  --color-primary-text: #FFFFFF;
   --color-primary: #10B981;
   --color-primary-light: #6EE7B7;
   --color-primary-dark: #059669;
@@ -107,10 +109,10 @@
   --color-border-light: #1E293B;
   --color-border-hover: #334155;
 
-  --color-success: #10B981;
+  --color-success: #34D399;
   --color-success-bg: rgba(16, 185, 129, 0.1);
   --color-error: #EF4444;
-  --color-warning: #F59E0B;
+  --color-warning: #FBBF24;
 
   --color-strength-weak: #EF4444;
   --color-strength-fair: #F59E0B;
@@ -464,4 +466,20 @@ input[type="range"]::-moz-range-thumb {
 /* ===== AD SLOT ===== */
 .ad-slot {
   margin: 1.5rem 0;
+}
+
+/* Responsive nav visibility */
+.mobile-nav {
+  display: flex !important;
+}
+.desktop-nav {
+  display: none !important;
+}
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: flex !important;
+  }
+  .mobile-nav {
+    display: none !important;
+  }
 }

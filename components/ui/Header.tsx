@@ -48,9 +48,9 @@ export default function Header() {
           }}
         >
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" stroke="#059669" strokeWidth="2" fill="rgba(5, 150, 105, 0.1)" />
-            <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#D97706" strokeWidth="2.5" />
-            <circle cx="12" cy="16.5" r="1.5" fill="#059669" />
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" stroke="#047857" strokeWidth="2" fill="rgba(5, 150, 105, 0.1)" />
+            <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#B45309" strokeWidth="2.5" />
+            <circle cx="12" cy="16.5" r="1.5" fill="#047857" />
           </svg>
           <span>Password<span style={{ color: "var(--color-primary)" }}>Generator</span></span>
         </Link>
