@@ -34,7 +34,7 @@ export default function HomeToolGrid() {
           <p style={{ fontSize: '0.9375rem', color: 'var(--color-text-secondary)', lineHeight: 1.6, flex: 1, margin: 0 }}>
             {tool.description}
           </p>
-          <span style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-primary)', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+          <span className='tool-link-text' style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-primary)', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
             Use Tool →
           </span>
         </Link>
