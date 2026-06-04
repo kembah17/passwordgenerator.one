@@ -4,7 +4,7 @@
 
 :root {
   /* Primary - Security Green */
-  --color-primary: #059669;
+  --color-primary: #047857;
   --color-primary-light: #6EE7B7;
   --color-primary-dark: #047857;
   --color-primary-darker: #065F46;
@@ -126,7 +126,7 @@
   --shadow-primary: 0 4px 14px rgba(16, 185, 129, 0.2);
   --shadow-primary-lg: 0 8px 25px rgba(16, 185, 129, 0.25);
 
-  --color-link: #10B981;
+  --color-link: #34D399;
   --color-link-hover: #6EE7B7;
 }
 
