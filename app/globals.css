@@ -42,17 +42,17 @@
   /* Borders */
   --color-border: #C4C8D0;
   --color-border-light: #D1D5DB;
-  --color-border-hover: #9CA3AF;
+  --color-border-hover: #6B7280;
 
   /* Status */
-  --color-success: #059669;
+  --color-success: #047857;
   --color-success-bg: rgba(5, 150, 105, 0.08);
   --color-error: #DC2626;
-  --color-warning: #D97706;
+  --color-warning: #B45309;
 
   /* Strength meter */
   --color-strength-weak: #DC2626;
-  --color-strength-fair: #D97706;
+  --color-strength-fair: #B45309;
   --color-strength-good: #059669;
   --color-strength-strong: #047857;
   --color-strength-very-strong: #065F46;
@@ -92,7 +92,7 @@
   --color-hero: rgba(16, 185, 129, 0.05);
   --color-footer-bg: #030712;
   --color-footer-text: #E2E8F0;
-  --color-footer-muted: #64748B;
+  --color-footer-muted: #94A3B8;
   --color-footer-border: #111827;
   --color-footer-link: #34D399;
   --color-footer-link-hover: #6EE7B7;
@@ -100,7 +100,7 @@
   --color-text: #F1F5F9;
   --color-text-primary: #F1F5F9;
   --color-text-secondary: #94A3B8;
-  --color-text-muted: #64748B;
+  --color-text-muted: #94A3B8;
   --color-heading: #F1F5F9;
 
   --color-border: #1E293B;
