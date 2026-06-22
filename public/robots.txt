@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.passwordgenerator.one
+Host: https://passwordgenerator.one
 
 # Sitemaps
-Sitemap: https://www.passwordgenerator.one/sitemap.xml
+Sitemap: https://passwordgenerator.one/sitemap.xml

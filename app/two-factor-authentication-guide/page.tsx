@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Two-Factor Authentication (2FA) Guide - Setup Instructions for Every Platform",
   description:
     "Complete guide to two-factor authentication: what it is, why you need it, and step-by-step setup instructions for Google, Apple, Microsoft, social media, and banking accounts.",
-  alternates: { canonical: "https://www.passwordgenerator.one/two-factor-authentication-guide/" },
+  alternates: { canonical: "https://passwordgenerator.one/two-factor-authentication-guide/" },
 };
 
 const faqItems = [

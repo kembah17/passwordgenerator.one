@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.passwordgenerator.one',
+  siteUrl: 'https://passwordgenerator.one',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',

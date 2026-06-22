@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Password Strength Checker - Test How Secure Your Password Is",
   description:
     "Check your password strength with real-time entropy analysis, crack time estimates, and actionable security suggestions. 100% client-side - your password never leaves your browser.",
-  alternates: { canonical: "https://www.passwordgenerator.one/password-strength-checker/" },
+  alternates: { canonical: "https://passwordgenerator.one/password-strength-checker/" },
 };
 
 const faqItems = [

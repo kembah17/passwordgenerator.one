@@ -10,7 +10,7 @@ const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 
 export const metadata: Metadata = {
   ...(gscVerification && { verification: { google: gscVerification } }),
-  metadataBase: new URL("https://www.passwordgenerator.one"),
+  metadataBase: new URL("https://passwordgenerator.one"),
   title: {
     default:
       "Password Generator - Free Secure Password & Passphrase Generator | PasswordGenerator.one",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.passwordgenerator.one",
+    url: "https://passwordgenerator.one",
     siteName: "PasswordGenerator.one",
     title:
       "Password Generator - Free Secure Password & Passphrase Generator",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
       "Free secure password generator, passphrase generator, and password strength checker. 100% client-side.",
   },
   alternates: {
-    canonical: "https://www.passwordgenerator.one",
+    canonical: "https://passwordgenerator.one",
   },
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Passphrase Generator - Create Memorable Secure Passphrases",
   description:
     "Generate strong, memorable passphrases from random words. Customize word count, separators, and extras. 100% client-side using Web Crypto API.",
-  alternates: { canonical: "https://www.passwordgenerator.one/passphrase-generator/" },
+  alternates: { canonical: "https://passwordgenerator.one/passphrase-generator/" },
 };
 
 const faqItems = [

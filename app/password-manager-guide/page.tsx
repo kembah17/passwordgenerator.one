@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Password Manager Guide - Why and How to Use One in 2025",
   description:
     "Complete guide to password managers: why you need one, how they work, top recommendations, and step-by-step setup instructions for securing all your accounts.",
-  alternates: { canonical: "https://www.passwordgenerator.one/password-manager-guide/" },
+  alternates: { canonical: "https://passwordgenerator.one/password-manager-guide/" },
 };
 
 const faqItems = [

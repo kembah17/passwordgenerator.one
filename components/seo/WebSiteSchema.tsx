@@ -3,11 +3,11 @@ export default function WebSiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "PasswordGenerator.one",
-    url: "https://www.passwordgenerator.one",
+    url: "https://passwordgenerator.one",
     description: "Free, secure password generator tools that run entirely in your browser. Generate strong passwords, memorable passphrases, and check password strength.",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://www.passwordgenerator.one/?q={search_term_string}",
+      target: "https://passwordgenerator.one/?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };

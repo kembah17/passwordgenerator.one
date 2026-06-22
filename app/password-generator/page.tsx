@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Password Generator - Create Strong Random Passwords Instantly",
   description:
     "Generate cryptographically secure random passwords with customizable length, character types, and strength analysis. 100% client-side using Web Crypto API.",
-  alternates: { canonical: "https://www.passwordgenerator.one/password-generator/" },
+  alternates: { canonical: "https://passwordgenerator.one/password-generator/" },
 };
 
 const faqItems = [

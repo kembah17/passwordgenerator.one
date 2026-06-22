@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "How to Create a Strong Password in 2025 - Complete Guide",
   description:
     "Learn how to create strong, secure passwords that protect your accounts. Covers password length, character types, entropy, common mistakes, and best practices.",
-  alternates: { canonical: "https://www.passwordgenerator.one/how-to-create-strong-password/" },
+  alternates: { canonical: "https://passwordgenerator.one/how-to-create-strong-password/" },
 };
 
 const faqItems = [
